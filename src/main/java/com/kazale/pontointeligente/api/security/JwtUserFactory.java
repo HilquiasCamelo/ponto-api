@@ -1,4 +1,4 @@
-package com.kazale.pontointeligente.api.security;
+package com.hilquias.pontointeligente.api.security;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,8 +6,8 @@ import java.util.List;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 
-import com.kazale.pontointeligente.api.entities.Funcionario;
-import com.kazale.pontointeligente.api.enums.PerfilEnum;
+import com.hilquias.pontointeligente.api.entities.Funcionario;
+import com.hilquias.pontointeligente.api.enums.PerfilEnum;
 
 public class JwtUserFactory {
 

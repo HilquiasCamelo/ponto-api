@@ -1,4 +1,4 @@
-package com.kazale.pontointeligente.api.controllers;
+package com.hilquias.pontointeligente.api.controllers;
 
 import java.security.NoSuchAlgorithmException;
 
@@ -16,14 +16,14 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.kazale.pontointeligente.api.dtos.CadastroPJDto;
-import com.kazale.pontointeligente.api.entities.Empresa;
-import com.kazale.pontointeligente.api.entities.Funcionario;
-import com.kazale.pontointeligente.api.enums.PerfilEnum;
-import com.kazale.pontointeligente.api.response.Response;
-import com.kazale.pontointeligente.api.services.EmpresaService;
-import com.kazale.pontointeligente.api.services.FuncionarioService;
-import com.kazale.pontointeligente.api.utils.PasswordUtils;
+import com.hilquias.pontointeligente.api.dtos.CadastroPJDto;
+import com.hilquias.pontointeligente.api.entities.Empresa;
+import com.hilquias.pontointeligente.api.entities.Funcionario;
+import com.hilquias.pontointeligente.api.enums.PerfilEnum;
+import com.hilquias.pontointeligente.api.response.Response;
+import com.hilquias.pontointeligente.api.services.EmpresaService;
+import com.hilquias.pontointeligente.api.services.FuncionarioService;
+import com.hilquias.pontointeligente.api.utils.PasswordUtils;
 
 @RestController
 @RequestMapping("/api/cadastrar-pj")

@@ -1,4 +1,4 @@
-package com.kazale.pontointeligente.api.security.services;
+package com.hilquias.pontointeligente.api.security.services;
 
 import java.util.Optional;
 
@@ -8,9 +8,9 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import com.kazale.pontointeligente.api.entities.Funcionario;
-import com.kazale.pontointeligente.api.security.JwtUserFactory;
-import com.kazale.pontointeligente.api.services.FuncionarioService;
+import com.hilquias.pontointeligente.api.entities.Funcionario;
+import com.hilquias.pontointeligente.api.security.JwtUserFactory;
+import com.hilquias.pontointeligente.api.services.FuncionarioService;
 
 @Service
 public class JwtUserDetailsServiceImpl implements UserDetailsService {

@@ -1,8 +1,8 @@
-package com.kazale.pontointeligente.api.services;
+package com.hilquias.pontointeligente.api.services;
 
 import java.util.Optional;
 
-import com.kazale.pontointeligente.api.entities.Empresa;
+import com.hilquias.pontointeligente.api.entities.Empresa;
 
 public interface EmpresaService {
 

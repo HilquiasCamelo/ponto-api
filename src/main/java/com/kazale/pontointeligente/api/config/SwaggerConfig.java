@@ -1,4 +1,4 @@
-package com.kazale.pontointeligente.api.config;
+package com.hilquias.pontointeligente.api.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Profile;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 
-import com.kazale.pontointeligente.api.security.utils.JwtTokenUtil;
+import com.hilquias.pontointeligente.api.security.utils.JwtTokenUtil;
 
 import springfox.documentation.builders.ApiInfoBuilder;
 import springfox.documentation.builders.PathSelectors;
@@ -33,7 +33,7 @@ public class SwaggerConfig {
 	@Bean
 	public Docket api() {
 		return new Docket(DocumentationType.SWAGGER_2).select()
-				.apis(RequestHandlerSelectors.basePackage("com.kazale.pontointeligente.api.controllers"))
+				.apis(RequestHandlerSelectors.basePackage("com.hilquias.pontointeligente.api.controllers"))
 				.paths(PathSelectors.any()).build()
 				.apiInfo(apiInfo());
 	}
@@ -48,7 +48,7 @@ public class SwaggerConfig {
 	public SecurityConfiguration security() {
 		String token;
 		try {
-			UserDetails userDetails = this.userDetailsService.loadUserByUsername("admin@kazale.com");
+			UserDetails userDetails = this.userDetailsService.loadUserByUsername("admin@hilquias.com");
 			token = this.jwtTokenUtil.obterToken(userDetails);
 		} catch (Exception e) {
 			token = "";

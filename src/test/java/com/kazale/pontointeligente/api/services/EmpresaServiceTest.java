@@ -1,4 +1,4 @@
-package com.kazale.pontointeligente.api.services;
+package com.hilquias.pontointeligente.api.services;
 
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
@@ -16,8 +16,8 @@ import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.kazale.pontointeligente.api.entities.Empresa;
-import com.kazale.pontointeligente.api.repositories.EmpresaRepository;
+import com.hilquias.pontointeligente.api.entities.Empresa;
+import com.hilquias.pontointeligente.api.repositories.EmpresaRepository;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

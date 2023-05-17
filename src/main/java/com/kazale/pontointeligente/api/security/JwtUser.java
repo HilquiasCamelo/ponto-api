@@ -1,4 +1,4 @@
-package com.kazale.pontointeligente.api.security;
+package com.hilquias.pontointeligente.api.security;
 
 import java.util.Collection;
 

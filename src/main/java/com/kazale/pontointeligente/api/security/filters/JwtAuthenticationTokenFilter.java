@@ -1,4 +1,4 @@
-package com.kazale.pontointeligente.api.security.filters;
+package com.hilquias.pontointeligente.api.security.filters;
 
 import java.io.IOException;
 
@@ -15,7 +15,7 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.web.authentication.WebAuthenticationDetailsSource;
 import org.springframework.web.filter.OncePerRequestFilter;
 
-import com.kazale.pontointeligente.api.security.utils.JwtTokenUtil;
+import com.hilquias.pontointeligente.api.security.utils.JwtTokenUtil;
 
 public class JwtAuthenticationTokenFilter extends OncePerRequestFilter {
 

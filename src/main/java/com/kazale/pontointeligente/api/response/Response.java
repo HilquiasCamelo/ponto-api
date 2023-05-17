@@ -1,4 +1,4 @@
-package com.kazale.pontointeligente.api.response;
+package com.hilquias.pontointeligente.api.response;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.kazale.pontointeligente.api.controllers;
+package com.hilquias.pontointeligente.api.controllers;
 
 import java.util.Optional;
 
@@ -12,10 +12,10 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.kazale.pontointeligente.api.dtos.EmpresaDto;
-import com.kazale.pontointeligente.api.entities.Empresa;
-import com.kazale.pontointeligente.api.response.Response;
-import com.kazale.pontointeligente.api.services.EmpresaService;
+import com.hilquias.pontointeligente.api.dtos.EmpresaDto;
+import com.hilquias.pontointeligente.api.entities.Empresa;
+import com.hilquias.pontointeligente.api.response.Response;
+import com.hilquias.pontointeligente.api.services.EmpresaService;
 
 @RestController
 @RequestMapping("/api/empresas")

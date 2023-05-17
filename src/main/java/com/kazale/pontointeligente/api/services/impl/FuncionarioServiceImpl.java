@@ -1,4 +1,4 @@
-package com.kazale.pontointeligente.api.services.impl;
+package com.hilquias.pontointeligente.api.services.impl;
 
 import java.util.List;
 import java.util.Optional;
@@ -8,9 +8,9 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.kazale.pontointeligente.api.entities.Funcionario;
-import com.kazale.pontointeligente.api.repositories.FuncionarioRepository;
-import com.kazale.pontointeligente.api.services.FuncionarioService;
+import com.hilquias.pontointeligente.api.entities.Funcionario;
+import com.hilquias.pontointeligente.api.repositories.FuncionarioRepository;
+import com.hilquias.pontointeligente.api.services.FuncionarioService;
 
 @Service
 public class FuncionarioServiceImpl implements FuncionarioService {

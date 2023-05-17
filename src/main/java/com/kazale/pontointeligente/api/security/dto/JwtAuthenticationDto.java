@@ -1,4 +1,4 @@
-package com.kazale.pontointeligente.api.security.dto;
+package com.hilquias.pontointeligente.api.security.dto;
 
 import org.hibernate.validator.constraints.Email;
 import org.hibernate.validator.constraints.NotEmpty;

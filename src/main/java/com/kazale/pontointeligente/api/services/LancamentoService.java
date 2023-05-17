@@ -1,4 +1,4 @@
-package com.kazale.pontointeligente.api.services;
+package com.hilquias.pontointeligente.api.services;
 
 import java.util.List;
 import java.util.Optional;
@@ -6,7 +6,7 @@ import java.util.Optional;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 
-import com.kazale.pontointeligente.api.entities.Lancamento;
+import com.hilquias.pontointeligente.api.entities.Lancamento;
 
 public interface LancamentoService {
 

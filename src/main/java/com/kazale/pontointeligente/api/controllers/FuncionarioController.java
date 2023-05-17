@@ -1,4 +1,4 @@
-package com.kazale.pontointeligente.api.controllers;
+package com.hilquias.pontointeligente.api.controllers;
 
 import java.math.BigDecimal;
 import java.security.NoSuchAlgorithmException;
@@ -16,11 +16,11 @@ import org.springframework.validation.BindingResult;
 import org.springframework.validation.ObjectError;
 import org.springframework.web.bind.annotation.*;
 
-import com.kazale.pontointeligente.api.dtos.FuncionarioDto;
-import com.kazale.pontointeligente.api.entities.Funcionario;
-import com.kazale.pontointeligente.api.response.Response;
-import com.kazale.pontointeligente.api.services.FuncionarioService;
-import com.kazale.pontointeligente.api.utils.PasswordUtils;
+import com.hilquias.pontointeligente.api.dtos.FuncionarioDto;
+import com.hilquias.pontointeligente.api.entities.Funcionario;
+import com.hilquias.pontointeligente.api.response.Response;
+import com.hilquias.pontointeligente.api.services.FuncionarioService;
+import com.hilquias.pontointeligente.api.utils.PasswordUtils;
 
 @RestController
 @RequestMapping("/api/funcionarios")

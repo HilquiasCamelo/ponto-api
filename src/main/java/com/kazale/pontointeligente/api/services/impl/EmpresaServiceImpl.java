@@ -1,4 +1,4 @@
-package com.kazale.pontointeligente.api.services.impl;
+package com.hilquias.pontointeligente.api.services.impl;
 
 import java.util.Optional;
 
@@ -7,9 +7,9 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.kazale.pontointeligente.api.entities.Empresa;
-import com.kazale.pontointeligente.api.repositories.EmpresaRepository;
-import com.kazale.pontointeligente.api.services.EmpresaService;
+import com.hilquias.pontointeligente.api.entities.Empresa;
+import com.hilquias.pontointeligente.api.repositories.EmpresaRepository;
+import com.hilquias.pontointeligente.api.services.EmpresaService;
 
 @Service
 public class EmpresaServiceImpl implements EmpresaService {

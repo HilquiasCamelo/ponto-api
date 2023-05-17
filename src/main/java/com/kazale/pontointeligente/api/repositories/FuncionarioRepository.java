@@ -1,9 +1,9 @@
-package com.kazale.pontointeligente.api.repositories;
+package com.hilquias.pontointeligente.api.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.kazale.pontointeligente.api.entities.Funcionario;
+import com.hilquias.pontointeligente.api.entities.Funcionario;
 
 import java.util.List;
 

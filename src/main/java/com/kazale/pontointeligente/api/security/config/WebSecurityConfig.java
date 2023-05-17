@@ -1,4 +1,4 @@
-package com.kazale.pontointeligente.api.security.config;
+package com.hilquias.pontointeligente.api.security.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -17,8 +17,8 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
-import com.kazale.pontointeligente.api.security.JwtAuthenticationEntryPoint;
-import com.kazale.pontointeligente.api.security.filters.JwtAuthenticationTokenFilter;
+import com.hilquias.pontointeligente.api.security.JwtAuthenticationEntryPoint;
+import com.hilquias.pontointeligente.api.security.filters.JwtAuthenticationTokenFilter;
 
 @Configuration
 @EnableWebSecurity

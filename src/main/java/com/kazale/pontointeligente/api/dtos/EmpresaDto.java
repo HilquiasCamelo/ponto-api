@@ -1,4 +1,4 @@
-package com.kazale.pontointeligente.api.dtos;
+package com.hilquias.pontointeligente.api.dtos;
 
 public class EmpresaDto {
 	

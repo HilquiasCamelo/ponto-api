@@ -1,14 +1,14 @@
-package com.kazale.pontointeligente.api;
+package com.hilquias.pontointeligente.api;
 
-import com.kazale.pontointeligente.api.entities.Empresa;
-import com.kazale.pontointeligente.api.entities.Funcionario;
-import com.kazale.pontointeligente.api.entities.Lancamento;
-import com.kazale.pontointeligente.api.enums.PerfilEnum;
-import com.kazale.pontointeligente.api.enums.TipoEnum;
-import com.kazale.pontointeligente.api.repositories.EmpresaRepository;
-import com.kazale.pontointeligente.api.repositories.FuncionarioRepository;
-import com.kazale.pontointeligente.api.repositories.LancamentoRepository;
-import com.kazale.pontointeligente.api.utils.PasswordUtils;
+import com.hilquias.pontointeligente.api.entities.Empresa;
+import com.hilquias.pontointeligente.api.entities.Funcionario;
+import com.hilquias.pontointeligente.api.entities.Lancamento;
+import com.hilquias.pontointeligente.api.enums.PerfilEnum;
+import com.hilquias.pontointeligente.api.enums.TipoEnum;
+import com.hilquias.pontointeligente.api.repositories.EmpresaRepository;
+import com.hilquias.pontointeligente.api.repositories.FuncionarioRepository;
+import com.hilquias.pontointeligente.api.repositories.LancamentoRepository;
+import com.hilquias.pontointeligente.api.utils.PasswordUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

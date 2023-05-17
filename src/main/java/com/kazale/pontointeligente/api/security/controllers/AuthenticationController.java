@@ -1,4 +1,4 @@
-package com.kazale.pontointeligente.api.security.controllers;
+package com.hilquias.pontointeligente.api.security.controllers;
 
 import java.util.Optional;
 
@@ -23,10 +23,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.kazale.pontointeligente.api.response.Response;
-import com.kazale.pontointeligente.api.security.dto.JwtAuthenticationDto;
-import com.kazale.pontointeligente.api.security.dto.TokenDto;
-import com.kazale.pontointeligente.api.security.utils.JwtTokenUtil;
+import com.hilquias.pontointeligente.api.response.Response;
+import com.hilquias.pontointeligente.api.security.dto.JwtAuthenticationDto;
+import com.hilquias.pontointeligente.api.security.dto.TokenDto;
+import com.hilquias.pontointeligente.api.security.utils.JwtTokenUtil;
 
 @RestController
 @RequestMapping("/auth")

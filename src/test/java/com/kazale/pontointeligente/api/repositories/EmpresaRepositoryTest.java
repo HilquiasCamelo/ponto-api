@@ -1,4 +1,4 @@
-package com.kazale.pontointeligente.api.repositories;
+package com.hilquias.pontointeligente.api.repositories;
 
 import static org.junit.Assert.assertEquals;
 
@@ -11,7 +11,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.kazale.pontointeligente.api.entities.Empresa;
+import com.hilquias.pontointeligente.api.entities.Empresa;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

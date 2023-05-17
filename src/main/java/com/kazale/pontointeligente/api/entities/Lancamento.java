@@ -1,4 +1,4 @@
-package com.kazale.pontointeligente.api.entities;
+package com.hilquias.pontointeligente.api.entities;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -18,7 +18,7 @@ import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
-import com.kazale.pontointeligente.api.enums.TipoEnum;
+import com.hilquias.pontointeligente.api.enums.TipoEnum;
 
 @Entity
 @Table(name = "lancamento")

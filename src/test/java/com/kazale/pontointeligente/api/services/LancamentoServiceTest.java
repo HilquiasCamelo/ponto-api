@@ -1,4 +1,4 @@
-package com.kazale.pontointeligente.api.services;
+package com.hilquias.pontointeligente.api.services;
 
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
@@ -20,8 +20,8 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.test.context.ActiveProfiles;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.kazale.pontointeligente.api.entities.Lancamento;
-import com.kazale.pontointeligente.api.repositories.LancamentoRepository;
+import com.hilquias.pontointeligente.api.entities.Lancamento;
+import com.hilquias.pontointeligente.api.repositories.LancamentoRepository;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

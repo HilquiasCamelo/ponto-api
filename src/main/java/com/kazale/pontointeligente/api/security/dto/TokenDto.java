@@ -1,4 +1,4 @@
-package com.kazale.pontointeligente.api.security.dto;
+package com.hilquias.pontointeligente.api.security.dto;
 
 public class TokenDto {
 

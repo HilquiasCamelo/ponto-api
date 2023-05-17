@@ -1,9 +1,9 @@
-package com.kazale.pontointeligente.api.services;
+package com.hilquias.pontointeligente.api.services;
 
 import java.util.List;
 import java.util.Optional;
 
-import com.kazale.pontointeligente.api.entities.Funcionario;
+import com.hilquias.pontointeligente.api.entities.Funcionario;
 
 public interface FuncionarioService {
 	

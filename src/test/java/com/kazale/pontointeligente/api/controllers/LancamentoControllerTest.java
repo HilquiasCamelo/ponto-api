@@ -1,4 +1,4 @@
-package com.kazale.pontointeligente.api.controllers;
+package com.hilquias.pontointeligente.api.controllers;
 
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
@@ -24,12 +24,12 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.kazale.pontointeligente.api.dtos.LancamentoDto;
-import com.kazale.pontointeligente.api.entities.Funcionario;
-import com.kazale.pontointeligente.api.entities.Lancamento;
-import com.kazale.pontointeligente.api.enums.TipoEnum;
-import com.kazale.pontointeligente.api.services.FuncionarioService;
-import com.kazale.pontointeligente.api.services.LancamentoService;
+import com.hilquias.pontointeligente.api.dtos.LancamentoDto;
+import com.hilquias.pontointeligente.api.entities.Funcionario;
+import com.hilquias.pontointeligente.api.entities.Lancamento;
+import com.hilquias.pontointeligente.api.enums.TipoEnum;
+import com.hilquias.pontointeligente.api.services.FuncionarioService;
+import com.hilquias.pontointeligente.api.services.LancamentoService;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

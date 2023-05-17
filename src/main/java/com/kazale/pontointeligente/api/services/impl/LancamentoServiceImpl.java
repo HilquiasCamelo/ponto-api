@@ -1,4 +1,4 @@
-package com.kazale.pontointeligente.api.services.impl;
+package com.hilquias.pontointeligente.api.services.impl;
 
 import java.util.List;
 import java.util.Optional;
@@ -12,9 +12,9 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 
-import com.kazale.pontointeligente.api.entities.Lancamento;
-import com.kazale.pontointeligente.api.repositories.LancamentoRepository;
-import com.kazale.pontointeligente.api.services.LancamentoService;
+import com.hilquias.pontointeligente.api.entities.Lancamento;
+import com.hilquias.pontointeligente.api.repositories.LancamentoRepository;
+import com.hilquias.pontointeligente.api.services.LancamentoService;
 
 @Service
 public class LancamentoServiceImpl implements LancamentoService {

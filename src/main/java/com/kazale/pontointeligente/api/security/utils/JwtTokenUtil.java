@@ -1,11 +1,11 @@
-package com.kazale.pontointeligente.api.security.utils;
+package com.hilquias.pontointeligente.api.security.utils;
 
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.kazale.pontointeligente.api.entities.Funcionario;
-import com.kazale.pontointeligente.api.repositories.FuncionarioRepository;
+import com.hilquias.pontointeligente.api.entities.Funcionario;
+import com.hilquias.pontointeligente.api.repositories.FuncionarioRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.core.userdetails.UserDetails;
